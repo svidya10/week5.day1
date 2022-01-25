@@ -56,7 +56,7 @@ public class BaseClass2 {
   @AfterMethod
   public void postCondition() {
 		// Close browser
-		//driver.close();
+		driver.close();
 
   }
 
